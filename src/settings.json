@@ -1,0 +1,6 @@
+{
+    "serverName" : "smurf server",
+    "websiteName" : "Day Dance",
+    "port" : 8081,
+    "extra": "nana"
+}
