@@ -8,13 +8,13 @@ import (
 
 const keyServerAddr = "localhost"
 
-func GetIndexHandler(w http.ResponseWriter, r *http.Request) {
+/*func GetIndexHandler(w http.ResponseWriter, r *http.Request) {
 	ctx := r.Context()
 	fmt.Printf("%s: got \"/\" request\n", ctx.Value(keyServerAddr))
 
 	// fmt.Printf("got \"/\" request\n")
 	io.WriteString(w, "This is my website!\n")
-}
+}*/
 
 func GetRoot(w http.ResponseWriter, r *http.Request) {
 	ctx := r.Context()
